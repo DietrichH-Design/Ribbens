@@ -1,0 +1,93 @@
+body{
+  font-family: arial,helvetica,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: #35424a;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header{
+  background: #35424a;
+  border-bottom: blue 3px solid;
+  font-weight: bold;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+
+}
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header ul{
+  margin: 0;
+  padding: 0;
+
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding{
+  float: left;
+}
+header #branding h1{
+  margin: 0;
+}
+header nav{
+  float:right;
+  margin-top: 10px;
+}
+header .highlight,header .current a{
+  color: yellow;
+  font-weight: bold;
+}
+footer{
+  color:white;
+  border-top: yellow 3px solid;
+  font-size: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+header a:hover{
+  color: blue;
+  font-weight: bold;
+
+}
+
+#showcase{
+  min-height: 400px;
+  background: url('../img/showcase.jpg') no-repeat center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+article#main-col{
+  background-color: #35424a;
+  color: white;
+  font-size: 15px;
+}
+footer .highlight{
+  color: yellow;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+article#contact-detials{
+     background-color: #35424a;
+     color: white;
+     padding-top: 0;
+     padding-bottom: 0;
+ }
+ article a{
+   color: white;
+ }
